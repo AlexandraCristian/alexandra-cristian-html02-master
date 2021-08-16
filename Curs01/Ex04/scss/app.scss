@@ -1,0 +1,27 @@
+body {
+  background-color: red;
+}
+
+//regular css
+
+.header .header-top {
+  margin: 12px;
+}
+
+.header .header-top .header-controls {
+  font-size: 12px;
+}
+
+//sassy css
+// sintacticly awesome css
+//cscc - > sassy css
+
+.header {
+  .header-top {
+    margin: 12px;
+  }
+
+  .header-controls {
+    font-size: 12px;
+  }
+}
