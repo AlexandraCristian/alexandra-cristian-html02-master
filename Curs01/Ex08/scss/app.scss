@@ -9,10 +9,10 @@
 }
 
 %square {
- width: 200px;
- height: 200px;
- border: 1px solid black;
- background-color: turquoise;
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: turquoise;
 }
 
 .square-purple {
@@ -27,9 +27,43 @@
   background-color: magenta;
 }
 
-
 .square-peru {
   @extend %square;
 
   background-color: peru;
+}
+
+.circles {
+  width: 80%;
+  border: 1px solid black;
+  margin: 0 auto;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+%circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: brown;
+}
+
+.circle-red {
+  @extend %circle;
+
+  background-color: red;
+}
+
+.circle-green {
+  @extend %circle;
+
+  background-color: green;
+}
+
+.circle-blue {
+  @extend %circle;
+
+  background-color: blue;
 }
