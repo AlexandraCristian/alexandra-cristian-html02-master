@@ -33,10 +33,17 @@
 </head>
 
 <body>
-  <div class="box">1</div>
-  <div class="box">2</div>
-  <div class="box">3</div>
-  <div class="box">4</div>
+  <div class="box d-inline-block d-md-none d-lg-block">1</div>
+  <div class="box d-inline-block d-lg-none d-xl-block">2</div>
+  <div class="box d-none d-sm-inline-block d-lg-none d-xl-block">3</div>
+  <div class="box d-none d-sm-inline-block d-md-none d-lg-block">4</div>
+
+  <!--
+    xs (for phones - screens less than 768px wide)
+    sm (for tablets - screens equal to or greater than 768px wide)
+    md (for small laptops - screens equal to or greater than 992px wide)
+    lg (for laptops and desktops - screens equal to or greater than 1200px wide)
+ -->
 
   <div
     class="pixeltab-host"
